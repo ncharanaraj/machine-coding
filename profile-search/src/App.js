@@ -7,7 +7,6 @@ import Profile from "./components/Profile";
 function App() {
   const [searchText, setSearchText] = useState("");
   const { user, loading, getUserInfo } = useGetUser();
-  console.log(user);
   return (
     <div>
       <Search
